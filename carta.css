@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza a div na horizontal */
+    align-items: center;     /* Centraliza a div na vertical */
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0; /* Um cinza para destacar o bege da carta */
+}
+
+#carta {
+    width: 500px;           /* Define uma largura fixa */
+    /* Ou use max-width: 90%; para ser responsivo no celular */
+    
+    height: 600px;          /* Define uma altura fixa */
+    background-color: #F5F5DC; /* O bege que você escolheu */
+    
+    padding: 20px;          /* Espaço interno para o texto não colar na borda */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
+    border-radius: 8px;     /* Bordinhas levemente arredondadas */
+
+
+
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+   
+    margin-top: 0;       
+   
+    margin-bottom: 5px;  /* Define um espaço pequeno entre as linhas */
+    line-height: 1.4;
+}
+
+
+
+
+
+
+}
